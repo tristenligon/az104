@@ -1,3 +1,4 @@
+// Define 2 parameters for the Storage account, name and location
 @description('Defines the Storage Account Name')
 @minLength(8)
 @maxLength(24)
