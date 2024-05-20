@@ -1,0 +1,3 @@
+userName,familyName,givenName,displayName,title,userType,Active
+user1@ligontech.net,User,1,User 1, IT Lab Administrator,Member,True
+user2@ligontech.net,User,2,User 2, IT Lab Administrator,Member,True
