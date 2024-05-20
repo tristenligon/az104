@@ -1,0 +1,68 @@
+{
+  "schemas": [
+    "urn:ietf:params:scim:api:messages:2.0:BulkRequest"
+  ],
+  "Operations": [
+    {
+      "method": "POST",
+      "bulkId": "d5b58df8-eac7-4edb-b0e3-efc358443f68",
+      "path": "/Users",
+      "data": {
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User",
+          "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+        ],
+        "title": "IT Lab Administrator",
+        "userType": "Member",
+        "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+          "organization": null,
+          "employeeNumber": null,
+          "costCenter": null,
+          "manager": {
+            "value": null
+          },
+          "department": null,
+          "division": null
+        },
+        "userName": "user1@ligontech.net",
+        "name": {
+          "givenName": "1",
+          "familyName": "User"
+        },
+        "displayName": "User 1",
+        "active": "True"
+      }
+    },
+    {
+      "method": "POST",
+      "bulkId": "148f03ba-55ef-4c14-aaa9-5f4db94421bf",
+      "path": "/Users",
+      "data": {
+        "schemas": [
+          "urn:ietf:params:scim:schemas:core:2.0:User",
+          "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
+        ],
+        "title": "IT Lab Administrator",
+        "userType": "Member",
+        "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
+          "organization": null,
+          "employeeNumber": null,
+          "costCenter": null,
+          "manager": {
+            "value": null
+          },
+          "department": null,
+          "division": null
+        },
+        "userName": "user2@ligontech.net",
+        "name": {
+          "givenName": "2",
+          "familyName": "User"
+        },
+        "displayName": "User 2",
+        "active": "True"
+      }
+    }
+  ],
+  "failOnErrors": null
+}
