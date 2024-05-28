@@ -5,62 +5,62 @@
   "Operations": [
     {
       "method": "POST",
-      "bulkId": "d5b58df8-eac7-4edb-b0e3-efc358443f68",
+      "bulkId": "93ba2727-b745-447e-bcb1-ff1260d66b47",
       "path": "/Users",
       "data": {
         "schemas": [
           "urn:ietf:params:scim:schemas:core:2.0:User",
           "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
         ],
-        "title": "IT Lab Administrator",
+        "displayName": "User 1",
+        "name": {
+          "familyName": "User",
+          "givenName": "1"
+        },
         "userType": "Member",
         "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
-          "organization": null,
-          "employeeNumber": null,
           "costCenter": null,
+          "employeeNumber": null,
           "manager": {
             "value": null
           },
-          "department": null,
-          "division": null
+          "organization": null,
+          "division": null,
+          "department": null
         },
-        "userName": "user1@ligontech.net",
-        "name": {
-          "givenName": "1",
-          "familyName": "User"
-        },
-        "displayName": "User 1",
-        "active": "True"
+        "userName": "user1",
+        "active": "True",
+        "title": "IT Lab Administrator"
       }
     },
     {
       "method": "POST",
-      "bulkId": "148f03ba-55ef-4c14-aaa9-5f4db94421bf",
+      "bulkId": "4a81a66d-dae0-4881-8f88-8db9ee921112",
       "path": "/Users",
       "data": {
         "schemas": [
           "urn:ietf:params:scim:schemas:core:2.0:User",
           "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
         ],
-        "title": "IT Lab Administrator",
+        "displayName": "User 2",
+        "name": {
+          "familyName": "User",
+          "givenName": "2"
+        },
         "userType": "Member",
         "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
-          "organization": null,
-          "employeeNumber": null,
           "costCenter": null,
+          "employeeNumber": null,
           "manager": {
             "value": null
           },
-          "department": null,
-          "division": null
+          "organization": null,
+          "division": null,
+          "department": null
         },
-        "userName": "user2@ligontech.net",
-        "name": {
-          "givenName": "2",
-          "familyName": "User"
-        },
-        "displayName": "User 2",
-        "active": "True"
+        "userName": "user2",
+        "active": "True",
+        "title": "IT Lab Administrator"
       }
     }
   ],
