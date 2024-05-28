@@ -1,3 +1,3 @@
-externalID,userName,familyName,givenName,displayName,title,userType,Active
-1111111,user1,User,1,User 1,IT Lab Administrator,Member,True
-2222222,user2,User,2,User 2,IT Lab Administrator,Member,True
+WorkerID,WorkerStatus,WorkerType,userID,FirstName,LastName,FullName,JobTitle,Department,Location,CountryCode
+1111111,Active,Employee,user1,User,1,User 1,IT Lab Administrator,IT,United States,US
+2222222,Active,Employee,user2,User,2,User 2,IT Lab Administrator,IT,United States,US
