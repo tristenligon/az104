@@ -5,62 +5,96 @@
   "Operations": [
     {
       "method": "POST",
-      "bulkId": "93ba2727-b745-447e-bcb1-ff1260d66b47",
+      "bulkId": "7c1cdc9d-56a1-4231-9ccc-6f5e0dd2089a",
       "path": "/Users",
       "data": {
         "schemas": [
           "urn:ietf:params:scim:schemas:core:2.0:User",
           "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
         ],
+        "userType": "Employee",
         "displayName": "User 1",
         "name": {
-          "familyName": "User",
-          "givenName": "1"
+          "familyName": "1",
+          "givenName": "User"
         },
-        "userType": "Member",
+        "externalId": "1111111",
         "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
           "costCenter": null,
-          "employeeNumber": null,
+          "employeeNumber": "1111111",
           "manager": {
             "value": null
           },
           "organization": null,
           "division": null,
-          "department": null
+          "department": "IT"
         },
+        "addresses": [
+          {
+            "postalCode": null,
+            "country": "US",
+            "streetAddress": null,
+            "locality": null,
+            "type": "work"
+          }
+        ],
         "userName": "user1",
-        "active": "True",
-        "title": "IT Lab Administrator"
+        "active": true,
+        "nickName": "user1",
+        "title": "IT Lab Administrator",
+        "phoneNumbers": [
+          {
+            "type": "work",
+            "value": null
+          }
+        ]
       }
     },
     {
       "method": "POST",
-      "bulkId": "4a81a66d-dae0-4881-8f88-8db9ee921112",
+      "bulkId": "9d59cc69-a5a1-4bdc-bfd4-fadd510d9f2d",
       "path": "/Users",
       "data": {
         "schemas": [
           "urn:ietf:params:scim:schemas:core:2.0:User",
           "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User"
         ],
+        "userType": "Employee",
         "displayName": "User 2",
         "name": {
-          "familyName": "User",
-          "givenName": "2"
+          "familyName": "2",
+          "givenName": "User"
         },
-        "userType": "Member",
+        "externalId": "2222222",
         "urn:ietf:params:scim:schemas:extension:enterprise:2.0:User": {
           "costCenter": null,
-          "employeeNumber": null,
+          "employeeNumber": "2222222",
           "manager": {
             "value": null
           },
           "organization": null,
           "division": null,
-          "department": null
+          "department": "IT"
         },
+        "addresses": [
+          {
+            "postalCode": null,
+            "country": "US",
+            "streetAddress": null,
+            "locality": null,
+            "type": "work"
+          }
+        ],
         "userName": "user2",
-        "active": "True",
-        "title": "IT Lab Administrator"
+        "active": true,
+        "nickName": "user2",
+        "title": "IT Lab Administrator",
+        "phoneNumbers": [
+          {
+            "type": "work",
+            "value": null
+          }
+        ]
       }
     }
   ],
